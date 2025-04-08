@@ -51,7 +51,7 @@
 }
 @media(max-width:640px){
   .home-image{
-      height: 70vh;
+      height: 80vh;
   }
   .text h1{
       font-size: 30px;
@@ -59,8 +59,12 @@
       
   }
   .text p{
-      font-size: 15px;
+      font-size: 16px;
       text-align: center;
+      background-color: black;
+      font-weight: bold;
+      color: white;
+      border-radius: 5px;
 
   }
   .text{
@@ -76,6 +80,9 @@
 @media(min-width:750px){
   .home-image{
     background-size: cover;
+  }
+  .home-image .text{
+    background-color: rgba(0, 0, 0, 0.5); 
   }
 }
 /* Submit and Close Buttons */
