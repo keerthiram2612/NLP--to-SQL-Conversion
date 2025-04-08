@@ -2,11 +2,7 @@ import "./Navbarstyle.css";
 import React, { useState, useEffect } from "react";
 
 export default function Navbar() {
- 
   const [menuOpen, setMenuOpen] = useState(false);
-
-  
-
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -23,6 +19,11 @@ export default function Navbar() {
               type="checkbox"
             />
           </label>
+        </div>
+        <div className="menu-toggle" onClick={toggleMenu}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </div>
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
           <li><a href="/">Home</a></li>
