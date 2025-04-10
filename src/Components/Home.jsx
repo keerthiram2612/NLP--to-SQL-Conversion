@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <div className="home">
-        <div className="home-image text-center">
+        <div className="home-image text-center"> </div>
           <div className="text text-center">
             <h1 className="title text-center">
               NLP <span>to</span> SQL
@@ -25,7 +25,6 @@ export default function Home() {
             }}>
            Contact Us
           </button>
-          </div>
         </div>
       </div>
       <About/>

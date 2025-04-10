@@ -20,6 +20,7 @@
 .left a{
   color: red;
  font-family:cursive;
+ font-size: 30px;
 }
 .left {
   margin: 20px 0;
@@ -138,7 +139,7 @@ input:checked + .slider:before {
 
 .navbar-left h2 {
   margin: 0;
-  font-size: 40px;
+  font-size: 30px;
   color: black;
   font-weight: bold;
   font-family: cursive;
@@ -227,7 +228,10 @@ input:checked + .slider:before {
   /* font-weight: 500; */
   font-size: 20px;
 }
-
+.nav-links li a:hover{
+  border-bottom: 2px solid red;
+  transition: .2s ease-in;
+}
 /* Responsive */
 @media (max-width: 768px) {
   .menu-toggle {
