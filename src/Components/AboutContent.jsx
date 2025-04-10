@@ -5,7 +5,7 @@ export default function AboutContent() {
   
   return (
     <div className="home">
-      <div className="home-image text-center">
+      <div className="home-image text-center"></div>
           <div className="text text-center">
             <h1 className="title text-center">
               NLP <span>to</span> SQL <span>Query Execution</span>
@@ -15,7 +15,6 @@ export default function AboutContent() {
               using Machine Learning.
             </p>
           </div>
-        </div>
       <div className="about-container">
         <h2 className="about-title"><span>A</span>bout Our Project</h2>
         

@@ -5,7 +5,7 @@ export default function FeatureContent() {
   return (
     <div>
       <div className="home">
-      <div className="home-image text-center">
+      <div className="home-image text-center"></div>
           <div className="text text-center">
             <h1 className="title text-center">
               NLP <span>to</span> SQL <span>Query Execution</span>
@@ -15,7 +15,6 @@ export default function FeatureContent() {
               using Machine Learning.
             </p>
           </div>
-        </div>
         <div className="features">
       <h2 className="text-center"><span>F</span>eatures</h2>
       <p>Enable users to query databases in natural language, translating queries into 
